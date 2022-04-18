@@ -23,7 +23,7 @@ function Quizzes(props) {
         axios
             .get("https://pure-caverns-82881.herokuapp.com/api/v54/quizzes", {
                 headers: {
-                    "X-Access-Token": "e5552dbf9ec9eec4944de31cb59a469b795dc14b03f2995d15e783fb190e4fe1",
+                    "X-Access-Token": "770e94b13ade92458e7cdb6d23a1787de8bfa87bd3c740f329a4c49bca94dffa",
                 },
             })
             .then((res) => {
